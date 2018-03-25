@@ -2,12 +2,13 @@
 {
 	margin:0;
 	padding:0;
+    
 }
 body
 {
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pexels-photo-879824.jpeg);
     height: 100vh;
-    background-size: cover;
+    background-size:cover;
     background-position: center;
     font-family: monospace;
 }
@@ -20,10 +21,10 @@ body
     }
 .menu li
 {
-	display:inline-block;
     padding:0px 20px;
     width:140px;
     height: 40px;
+    display: inline-block;
    
 }
 .menu li a
@@ -49,7 +50,9 @@ body
 }
 .high
 {
-    background-image:radial-gradient(rgba(0,0,0.5),rgba(0,0,0,0.5)),url(title.jpg);
+    background-color:navy;
+    border-collapse: collapse;
+    background-blend-mode:difference;
     height: 160px;
     line-height: 160px;
     width: auto;
@@ -70,12 +73,12 @@ h1
 }
 .side
 {
-    height: 800px;
+    height: 900px;
     width: 300px;
     margin-top:0;
     float: left;
-    background-color:skyblue;
-    opacity: .2;    
+    background-color:dodgerblue;
+    opacity: ;    
 }
 ul li ul
 {
@@ -92,15 +95,29 @@ ul li:hover >ul
 }
 .form
 {
-   background-color: ;
-    width: 120px;
-    margin-top: 0px;
-    margin-left:350px;
+   background-color:whitesmoke;
+    width: 920px;
+    height: 700px;
+    margin-top: 120px;
+    margin-left:10px;
+    float:left;
+    padding: 20px 20px;
 }
-.log input
+label
 {
-    background-color: black
-    text-align: center;
-    border: ;
-    color: ;
+    font-size: 15px;
+    font-display: block;
+    font-family: monospace;
+    
 }
+input
+{
+    border-bottom: 1.5px solid black;
+}
+p
+{
+    color: red;
+    font-size: 20px;
+}
+
+
